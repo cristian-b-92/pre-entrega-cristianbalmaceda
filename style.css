@@ -56,8 +56,13 @@ font-size: 20px;}
 }
 
     .contenido {padding: 20px;
-        display: flex;
-        flex-wrap: wrap;
+    
     }
+
+    ul { width: 500px;
+        border: 1px solid white;
+    position: relative;
+    left: 380px;
+     }
 
     .boton {color: black;}
