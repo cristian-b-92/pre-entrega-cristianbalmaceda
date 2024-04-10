@@ -1,0 +1,63 @@
+body{ background-color: black; 
+    text-align: center;
+}
+
+h1 {color: blueviolet;
+text-decoration: underline;
+font-size: 80px;}
+
+ *{color: white;
+font-size: 20px;}
+
+
+ .logo {position: absolute;
+    top: 0px;}
+
+    .imagen { padding-top: 100px;}
+
+    .navegador{position: absolute;
+    right: 15px;}
+
+    .planes {text-decoration: underline;
+    font-size: 40px; color: red;
+}
+
+
+
+    .plan1 { width: 500px;
+            display: inline-block;
+            padding: 2px;
+            border: 1px solid white;
+            margin: 20px;
+            flex-direction: column;
+    }
+
+    .plan2 { width: 500px;
+        display: inline-block;
+        padding: 30px;
+        border: 1px solid white;
+        margin: 20px;
+        flex-direction: column
+    }
+
+    .plan3 { width: 500px;
+        display: inline-block;
+        padding: 30px;
+        border: 1px solid white;
+        margin: 20px;
+        flex-direction: column
+    }
+
+    .nutri { width: 500px;
+        padding: 30px;
+        border: 1px solid white;
+        margin: 20px;
+        flex-direction: column
+}
+
+    .contenido {padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .boton {color: black;}
