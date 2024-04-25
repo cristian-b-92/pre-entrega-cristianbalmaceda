@@ -1,68 +1,211 @@
-body{ background-color: black; 
-    text-align: center;
+h1 {
+  color: blueviolet;
+  text-decoration: underline;
+  font-size: 80px;
 }
 
-h1 {color: blueviolet;
-text-decoration: underline;
-font-size: 80px;}
-
- *{color: white;
-font-size: 20px;}
-
-
- .logo {position: absolute;
-    top: 0px;}
-
-    .imagen { padding-top: 100px;}
-
-    .navegador{position: absolute;
-    right: 15px;}
-
-    .planes {text-decoration: underline;
-    font-size: 40px; color: red;
+* {
+  font-size: 20px;
 }
 
-
-
-    .plan1 { width: 500px;
-            display: inline-block;
-            padding: 2px;
-            border: 1px solid white;
-            margin: 20px;
-            flex-direction: column;
-    }
-
-    .plan2 { width: 500px;
-        display: inline-block;
-        padding: 30px;
-        border: 1px solid white;
-        margin: 20px;
-        flex-direction: column
-    }
-
-    .plan3 { width: 500px;
-        display: inline-block;
-        padding: 30px;
-        border: 1px solid white;
-        margin: 20px;
-        flex-direction: column
-    }
-
-    .nutri { width: 500px;
-        padding: 30px;
-        border: 1px solid white;
-        margin: 20px;
-        flex-direction: column
+.logo {
+  position: absolute;
+  top: 0px;
+  display: flex;
 }
 
-    .contenido {padding: 20px;
-    
-    }
+.imagen {
+  padding-top: 100px;
+}
 
-    ul { width: 500px;
-        border: 1px solid white;
+.navegador {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  color: white;
+}
+
+.contenido {
+  position: relative;
+  color: white;
+}
+
+ul {
+  width: 500px;
+  border: 1px solid white;
+  position: absolute;
+  right: 30%;
+  color: white;
+}
+
+.pie {
+  position: absolute;
+  top: 1200px;
+  right: 330px;
+  color: white;
+}
+
+.objetivo {
+  font-size: 50px;
+}
+
+.planestitulo {
+  text-decoration: underline;
+  font-size: 60px;
+  color: red;
+}
+
+.planes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.plan1 {
+  width: 500px;
+  display: inline-block;
+  padding: 30px;
+  border: 1px solid white;
+  margin: 20px;
+  flex-direction: column;
+  position: relative;
+  color: white;
+}
+
+.plan2 {
+  width: 500px;
+  display: inline-block;
+  padding: 30px;
+  border: 1px solid white;
+  margin: 20px;
+  flex-direction: column;
+  position: relative;
+  color: white;
+}
+
+.plan3 {
+  width: 500px;
+  display: inline-block;
+  padding: 30px;
+  border: 1px solid white;
+  margin: 20px;
+  flex-direction: column;
+  position: relative;
+  color: white;
+}
+
+.nutri {
+  width: 500px;
+  padding: 30px;
+  border: 1px solid white;
+  margin: 20px;
+  flex-direction: column;
+  position: relative;
+  color: white;
+}
+
+.info {
+  color: black;
+  position: absolute;
+  bottom: 5px;
+  right: 250px;
+}
+
+.contacto {
+  width: 200px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  position: relative;
+  left: 350px;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.boton {
+  color: black;
+}
+
+@media (max-width: 1345px) {
+  h1 {
+    font-size: 60px;
+  }
+  .logo {
+    width: 200px;
+  }
+  ul {
+    right: 400px;
+  }
+  .imagen {
     position: relative;
-    left: 380px;
-     }
-
-    .boton {color: black;}
+  }
+  .pie {
+    right: 350px;
+  }
+  .contacto {
+    position: absolute;
+    left: 400px;
+  }
+}
+@media (max-width: 1089px) {
+  h1 {
+    font-size: 60px;
+  }
+  .logo {
+    width: 200px;
+  }
+  ul {
+    right: 260px;
+  }
+  .imagen {
+    position: relative;
+  }
+  .pie {
+    right: 200px;
+  }
+  .contacto {
+    position: absolute;
+    left: 200px;
+  }
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 30px;
+    position: relative;
+    left: 80px;
+  }
+  .logo {
+    width: 200px;
+  }
+  ul {
+    right: 260px;
+  }
+  .navegador {
+    position: relative;
+    left: 250px;
+  }
+  .imagen {
+    position: relative;
+  }
+  .contacto {
+    position: absolute;
+    left: 0px;
+  }
+  .mapa {
+    width: 400px;
+  }
+  .pie {
+    position: absolute;
+    left: 150px;
+    width: 400px;
+  }
+  .objetivo {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+body {
+  background-color: black;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

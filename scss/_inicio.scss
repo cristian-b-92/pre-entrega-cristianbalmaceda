@@ -1,0 +1,40 @@
+h1 {color: blueviolet;
+    text-decoration: underline;
+    font-size: 80px;
+}
+    
+     *{
+    font-size: 20px;}
+    
+    
+     .logo {position: absolute;
+        top: 0px; display: flex;}
+    
+        .imagen { padding-top: 100px; 
+                }
+                    
+    
+        .navegador{position: absolute;
+        right: 15px;
+        top: 15px;
+        color:white;
+        }
+
+        .contenido { position: relative;
+            color:white;
+            
+        }
+    
+        ul { width: 500px;
+            border: 1px solid white;
+        position: absolute;
+       right: 30%;
+        color:white;
+        }
+        
+        .pie{position: absolute;
+            top: 1200px;
+            right: 330px;
+            color: white;}
+        
+        .objetivo{font-size: 50px;}
