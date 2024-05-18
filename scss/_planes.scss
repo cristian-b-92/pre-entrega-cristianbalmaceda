@@ -15,7 +15,8 @@
             flex-direction: column;
             position: relative;
             color:white;
-            
+            transition: 1s;
+            &:hover {transform:scale(1.2)}
     }
 
     .plan2 { width: 500px;
@@ -26,6 +27,8 @@
         flex-direction: column;
         position: relative;
         color:white;
+        transition: 1s;
+        &:hover {transform:scale(1.2)}
     }
 
     .plan3 { width: 500px;
@@ -36,6 +39,8 @@
         flex-direction: column;
         position: relative;
         color:white;
+        transition: 1s;
+        &:hover {transform:scale(1.2)}
     }
 
     .nutri { width: 500px;
@@ -45,6 +50,8 @@
         flex-direction: column;
         position: relative;
         color:white;
+        transition: 1s;
+        &:hover {transform:scale(1.2)}
 }
 .info {color: black;
     position: absolute;

@@ -1,40 +1,70 @@
 h1 {color: blueviolet;
     text-decoration: underline;
     font-size: 80px;
+    display: flex;
+    justify-content: center;
 }
+.titulo { margin-top: 200px;
+            display: flex;
+            flex-direction: column;}
     
      *{
-    font-size: 20px;}
+    font-size: 25px;}
     
     
      .logo {position: absolute;
-        top: 0px; display: flex;}
+        margin-left: 0%;
+        padding-left: 0%;
+        top: 0px; 
+        left: 0px;
+        display: flex;
     
-        .imagen { padding-top: 100px; 
-                }
-                    
+    }
     
+        
         .navegador{position: absolute;
         right: 15px;
         top: 15px;
         color:white;
         }
 
-        .contenido { position: relative;
-            color:white;
+        .imagen {height: 700px;
+                width: 80%;
+                display: block;
+                margin-right: auto;
+                margin-left: auto; }
+
+        .contenido { display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    
+                    color:white;
             
         }
     
         ul { width: 500px;
             border: 1px solid white;
-        position: absolute;
-       right: 30%;
-        color:white;
-        }
+            color:white;
+            }
         
-        .pie{position: absolute;
-            top: 1200px;
-            right: 330px;
+        .final{display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 80px;
+            margin-left: 0%;
+            margin-right: 0%;
+            
+            margin-top:  70px;
             color: white;}
+        .pie{
+                color: white;
+                display: block;
+        }
+
+        .copyright{display: block;
+                    font-size: 2px;
+                    width: 80%;
+                    padding-left: 0px;
+        }
         
         .objetivo{font-size: 50px;}

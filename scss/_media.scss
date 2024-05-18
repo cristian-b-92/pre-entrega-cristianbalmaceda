@@ -1,55 +1,9 @@
-@media(max-width: 1345px){
-    h1{font-size: 60px;    }
-    .logo{width: 200px;}
-    ul{right: 400px;}
+@media (max-width: 1130px){
+    h1 { font-size: 60px;}
+   
+}
 
-    .imagen {position: relative;}
-
-    .pie {right: 350px;}
-    
-
-    .contacto{position: absolute;
-            left: 400px;}
- }
-
- @media (max-width: 1089px){
-    h1{font-size: 60px;    }
-    .logo{width: 200px;}
-    ul{right: 260px;}
-
-    .imagen {position: relative;}
-
-    .pie {right: 200px;}
-    
-
-    .contacto{position: absolute;
-            left: 200px;}
- }
-
- @media (max-width: 500px){
-    h1{font-size: 30px;   
-        position: relative;
-        left: 80px;}
-
-    .logo{width: 200px;}
-
-    ul{right: 260px;}
-
-    .navegador{position: relative;
-                left: 250px;}
-
-    .imagen {position: relative;}
-    
-    .contacto{position: absolute;
-            left: 0px;}
-
-    .mapa{width:400px;}
-
-    .pie {position: absolute;
-            left: 150px;
-        width: 400px;}
-
-    .objetivo{font-size: 30px;
-                text-align: center;}
-
+@media (max-width: 700px){
+    .objetivo { font-size: 40px;
+                }
 }
